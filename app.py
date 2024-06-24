@@ -13,6 +13,9 @@ data = pd.read_parquet('data/house_price_data_20-05-2024.parquet')
 app = Dash(__name__, 
            external_stylesheets=[dbc.themes.BOOTSTRAP, 
                                  dbc.icons.FONT_AWESOME])
+app.layout = layout
+server = app.server
+
 
 @app.callback(
     Output('parish-dropdown', 'options'),
@@ -327,7 +330,5 @@ def display_popup(clickData, is_open):
     return is_open, ""
     
 
-app.layout = layout
-
 if __name__ == '__main__':
-    server = app.server
+    pass
