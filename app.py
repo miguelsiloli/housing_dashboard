@@ -330,5 +330,4 @@ def display_popup(clickData, is_open):
 app.layout = layout
 
 if __name__ == '__main__':
-    app = dash.Dash(__name__)
     server = app.server
