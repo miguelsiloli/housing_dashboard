@@ -152,4 +152,4 @@ content = dbc.Col(
 )
 
 
-layout = [sidebar, content]
+layout = html.Div([sidebar, content])
