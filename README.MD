@@ -1,8 +1,8 @@
 # Dash Dashboard Project
 
-![Cloud](pics/example.png)
+![Picture1](pics/example.png)
 
-![Cloud](pics/example1.png)
+![Picture2](pics/example1.png)
 
 ## Project Overview
 
