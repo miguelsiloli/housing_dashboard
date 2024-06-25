@@ -18,3 +18,5 @@ numpy
 pytz
 python-dateutil
 tenacity
+gunicorn
+scipy
